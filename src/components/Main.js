@@ -1,12 +1,12 @@
 import About from '../components/About';
-import Services from '../components/Services';
+import IntroOram from '../components/IntroOram';
 import Contact from '../components/Contact';
 
 function Main() {
   return (
     <>
       <main>
-        <Services />
+        <IntroOram />
         <About />
         <Contact />
       </main>

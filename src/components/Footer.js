@@ -28,7 +28,7 @@ function Footer() {
                   > Home </Link>
                   </li>
                   <li>
-                  <Link to="services" spy={true} smooth={true} duration={1000} > Services </Link>
+                  <Link to="services" spy={true} smooth={true} duration={1000} > IntroOram </Link>
                   </li>
                   <li>
                   <Link to="about-scroll" spy={true} smooth={true} duration={1000}>About Us  </Link>
@@ -46,13 +46,13 @@ function Footer() {
                 <p className="footer-title">Contact</p>
                 <ul>
                   <li>
-                    <Link to="#" >burhankcd@gmail.com</Link>
+                    <Link to="#" >TODO fillemail</Link>
                   </li>
                   <li>
-                    <Link to="#" > Burhan #3265</Link>
+                    <Link to="#" > Oblivious Labs </Link>
                   </li>
                   <li>
-                    <Link to="#" >0212 444 44 44</Link>
+                    <Link to="#" >TODO fill phone number</Link>
                   </li>
                 </ul>
               </div>

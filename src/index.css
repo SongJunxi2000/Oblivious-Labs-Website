@@ -203,6 +203,18 @@ header h1 {
   color: white;
   font-size: 64px;
 }
+header h2 {
+  z-index: 1;
+  color: white;
+  font-size: 24px;
+}
+header h3 {
+  z-index: 1;
+  color: white;
+  font-size: 18px;
+  opacity: 0.8;
+  font-family: Arial, Helvetica, sans-serif;
+}
 .opened {
   transform: translateX(0%)!important;
 }
@@ -307,7 +319,7 @@ footer ul li a {
   right: 15px;
   
 }
-/* Services */
+/* IntroOram */
 .card-title {
   color: #01bf71;
   font-size: 24px;
