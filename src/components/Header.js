@@ -1,7 +1,11 @@
+import video from './HeaderImg1.mp4';
+
+
 function Header() {
   return (
-    <header>
-      <video src="./video.mp4" loop autoPlay muted></video>
+    
+    <header >
+      <video src={video} loop autoPlay muted></video>
       <h1>Oblivious Labs</h1>
       <h2>Innovative Computer Science Lab</h2>
       <h3 />
