@@ -7,13 +7,13 @@ function IntroOram() {
             <div className="col-md-12">
                 <div className="row">
                     <div className="col-md-4 mb-2">
-                        <Card title="What is ORAM?" img="card1.png" text="Oblivious RAM (ORAM) acts as middleware between your application and the system that obfuscates the memory and disk access patterns. Read more." />
+                        <Card title="What is ORAM?" img="card1.png" text="Oblivious RAM (ORAM) is a privacy-enhancing technology that hides the memory access pattern of your application, thereby provably resisting most side-channel attacks. Read more." />
                     </div>
                     <div className="col-md-4 mb-2">
-                    <Card title="Do I need an ORAM?" img="card2.png" text="You should consider using an ORAM whenever your application involves privately querying a database, whether the database is secret or public. Read more." />
+                    <Card title="Should I use ORAM?" img="card2.png" text="You should consider deploying an ORAM when your application involves privately querying a large database, whether the database is secret or public. Read more." />
                     </div>
                     <div className="col-md-4 mb-2">
-                    <Card title="Current ORAM Apps" img="card3.png" text="We helped Signal deploy ORAM in their private contact discovery service. We are now working with Flashbots, a leading Web3 orgamization, to develop a private block builder for Ethereum. Read more." />
+                    <Card title="Who has applied ORAM?" img="card3.png" text="Signal, the encrypted messenger, has deployed ORAM for private contact discovery. We are now working with Flashbots, a leading Web3 orgamization, to develop private block builders for Ethereum. Read more." />
                     </div>
                 </div>
             </div>
