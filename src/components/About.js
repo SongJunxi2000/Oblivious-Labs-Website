@@ -9,11 +9,14 @@ function About() {
             <img alt="about" src="./img/img1.png" className="img-fluid" />
           </div>
           <div className="col-md-6">
-            <h2 className="main-title about-h2">ABOUT</h2>
+            <h2 className="main-title about-h2">About Us</h2>
             <p className="main-p">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
-              quam purus, ullamcorper id risus eu, consectetur consectetur
-              purus. Etiam sagittis in eros ac sollicitudin.
+              Oblivious Labs is a privacy-focused research and development
+              organization that protects user data from unauthorized access. Our team is
+              composed of experts in cryptography, security, and distributed
+              systems from Carnegie Mellon University and University of Illinois Urbana-Champaign. 
+              Our flagship product is a cryptographic protocol called Oblivious RAM (ORAM), 
+              and we are currently working with leading organizations to deploy it in the Ethereum ecosystem. 
             </p>
           </div>
         </div>
