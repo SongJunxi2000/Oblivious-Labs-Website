@@ -11,9 +11,15 @@ function About() {
             <img alt="about" src={img} className="img-fluid" />
           </div>
           <div className="col-md-6">
-            <h2 className="main-title about-h2">ABOUT</h2>
+            <h2 className="main-title about-h2">About Us</h2>
             <p className="main-p">
-            Oblivious Labs was established in 2023 by Professor Elaine Shi, together with Tianyao Gu and Afonso Tinoco. Leveraging more than a decade of research in Oblivious RAM (ORAM), our company is committed to providing secure private data access for databases across various industries. If you are interested in learning how ORAM can enhance the security of your services, please contact us.
+
+              Oblivious Labs is a privacy-focused research and development
+              organization that protects user data from unauthorized access. Our team is
+              composed of experts in cryptography, security, and distributed
+              systems from Carnegie Mellon University and University of Illinois Urbana-Champaign. 
+              Our flagship product is a cryptographic protocol called Oblivious RAM (ORAM), 
+              and we are currently working with leading organizations to deploy it in the Ethereum ecosystem. 
             </p>
           </div>
         </div>

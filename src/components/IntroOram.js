@@ -10,6 +10,7 @@ function IntroOram() {
             <div className="col-md-12">
                 <div className="row">
                     <div className="col-md-4 mb-2">
+                    
                         <Card title="What is ORAM?" img={card1} text="Oblivious RAM (ORAM) acts as middleware between your application and the system that obfuscates the memory and disk access patterns. Read more." />
                     </div>
                     <div className="col-md-4 mb-2">
@@ -18,6 +19,7 @@ function IntroOram() {
                     <div className="col-md-4 mb-2">
                     <Card title="Current ORAM Apps" img={card3} text="We helped Signal deploy ORAM in their private contact discovery service. We are now working with Flashbots, a leading Web3 orgamization, to develop a private block builder for Ethereum. Read more." />
                     </div>
+
                 </div>
             </div>
         </div>
