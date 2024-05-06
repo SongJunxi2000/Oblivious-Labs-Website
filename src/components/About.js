@@ -4,7 +4,7 @@ import card2 from  "./img/card2.png";
 import card3 from  "./img/card3.png";
 function IntroOram() {
   return (
-    <div className="container services">
+    <div className="container team-scroll">
         <h2 className="main-title text-center">Team</h2>
         <div className="card-cover">
             <div className="col-md-12">

@@ -28,13 +28,10 @@ function Footer() {
                   > Home </Link>
                   </li>
                   <li>
-                  <Link to="services" spy={true} smooth={true} duration={1000} > Intro to ORAM </Link>
+                  <Link to="services" spy={true} smooth={true} duration={1000} > ORAM </Link>
                   </li>
                   <li>
-                  <Link to="about-scroll" spy={true} smooth={true} duration={1000}>About Us  </Link>
-                  </li>
-                  <li>
-                  <Link to="contact" spy={true} smooth={true} duration={1000}> Contact  </Link>
+                  <Link to="about-scroll" spy={true} smooth={true} duration={1000}> Team  </Link>
                   </li>
                 </ul>
               </div>
