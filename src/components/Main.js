@@ -8,7 +8,6 @@ function Main() {
       <main>
         <IntroOram />
         <About />
-        <Contact />
       </main>
     </>
   );

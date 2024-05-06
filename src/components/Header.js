@@ -1,4 +1,4 @@
-import video from './HeaderImg1.mp4';
+import video from './video.mp4';
 
 
 function Header() {
