@@ -61,7 +61,7 @@ function Navbar() {
               <Link
                 onClick={openBar}
                 activeClass="active"
-                to="services"
+                to="IntroOram"
                 spy={true}
                 smooth={true}
                 duration={1000}
@@ -79,6 +79,18 @@ function Navbar() {
                 activeClass="active"
               >
                 Team
+              </Link>
+            </li>
+            <li>
+              <Link
+                onClick={openBar}
+                to="Sponsor"
+                spy={true}
+                smooth={true}
+                duration={1000}
+                activeClass="active"
+              >
+                Sponsors
               </Link>
             </li>
           </ul>

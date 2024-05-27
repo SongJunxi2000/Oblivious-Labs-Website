@@ -1,5 +1,5 @@
-import video from './video.mp4';
-
+import video from './img/video.mp4';
+import { Link } from "react-scroll";
 
 function Header() {
   return (
@@ -7,9 +7,15 @@ function Header() {
     <header >
       <video src={video} loop autoPlay muted></video>
       <h1>Oblivious Labs</h1>
-      <button className="btn" style={{ cursor: "pointer" }}>
-          Learn More
-        </button>
+      <Link
+        className="btn"
+        style={{ cursor: "pointer" }}
+        to="IntroOram"
+        smooth={true}
+        duration={1000}
+      >
+        Learn More
+      </Link>
       <div className="headerbg"></div>
     </header>
   );
