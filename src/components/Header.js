@@ -7,6 +7,8 @@ function Header() {
     <header >
       <video src={video} loop autoPlay muted></video>
       <h1>Oblivious Labs</h1>
+      <h3>We provide open source implementations of Oblivious RAM
+and oblivious algorithms. </h3>
       <Link
         className="btn"
         style={{ cursor: "pointer" }}
