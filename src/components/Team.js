@@ -10,16 +10,18 @@ function TeamMember() {
             <div className="col-md-12">
                 <div className="row">
                     <div className="col-md-3 mb-2">
-                    <Card title="What is ORAM?" img={card1} text="Oblivious RAM (ORAM) acts as middleware between your application and the system that obfuscates the memory and disk access patterns. Read more." />
+                    <Card title="Elaine Shi" img={card1} text="President and CEO \n Professor@CMU \n
+                    \n Author of Path ORAM, ObliVM, and lots of oblivious algorithms and data structures. 20 yrs+ experience in cryptography and blockchains. 10+ patents.
+" />
                     </div>
                     <div className="col-md-3 mb-2">
-                    <Card title="Do I need an ORAM?" img={card2} text="You should consider using an ORAM whenever your application involves privately querying a database, whether the database is secret or public. Read more." />
+                    <Card title="Tianyao Gu" img={card2} text="" />
                     </div>
                     <div className="col-md-3 mb-2">
-                    <Card title="What is ORAM?" img={card1} text="Oblivious RAM (ORAM) acts as middleware between your application and the system that obfuscates the memory and disk access patterns. Read more." />
+                    <Card title="Afonso Tinoco" img={card1} text="" />
                     </div>
                     <div className="col-md-3 mb-2">
-                    <Card title="Do I need an ORAM?" img={card2} text="You should consider using an ORAM whenever your application involves privately querying a database, whether the database is secret or public. Read more." />
+                    <Card title="Andrew Miller" img={card2} text="" />
                     </div>
                 </div>
             </div>

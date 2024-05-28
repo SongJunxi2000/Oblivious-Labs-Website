@@ -10,8 +10,7 @@ function Card(props) {
         <h3 className="card-title">{props.title}</h3>
       </div>
       <div className="p-3">
-        <p className="card-text">
-           {props.text}
+        <p className="card-text" dangerouslySetInnerHTML={{ __html: props.text }}>
         </p>
       </div>
     </div>
