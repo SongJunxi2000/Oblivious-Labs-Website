@@ -10,7 +10,8 @@ function IntroOram() {
             <div className="col-md-12">
                 <div className="row">
                     <div className="col-md-3 mb-2">
-                    <Card title="What is ORAM?" img={card1} text="Oblivious RAM (ORAM) acts as middleware between your application and the system that obfuscates the memory and disk access patterns. Read more." />
+                    <Card title="What is ORAM?" img={card1} text="Oblivious RAM (ORAM) provides a secret database that ``encrypts'' not only the data contents,
+but also the accesses to data." />
                     </div>
                     <div className="col-md-3 mb-2">
                     <Card title="Do I need an ORAM?" img={card2} text="You should consider using an ORAM whenever your application involves privately querying a database, whether the database is secret or public. Read more." />
