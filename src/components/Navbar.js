@@ -81,18 +81,6 @@ function Navbar() {
                 Team
               </Link>
             </li>
-            <li>
-              <Link
-                onClick={openBar}
-                to="Sponsor"
-                spy={true}
-                smooth={true}
-                duration={1000}
-                activeClass="active"
-              >
-                Sponsors
-              </Link>
-            </li>
           </ul>
           <div className="button" onClick={openBar}>
             <div className="burger"></div>
