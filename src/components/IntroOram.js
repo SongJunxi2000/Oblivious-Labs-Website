@@ -13,7 +13,7 @@ function IntroOram() {
                     <Card title="What is ORAM?" img={card1} text="Oblivious RAM (ORAM) provides a secret database that \"encrypts\" not only the data contents, but also the accesses to data." />
                     </div>
                     <div className="col-md-3 mb-2">
-                    <Card title="Applications of ORAM" img={card2} text="Our Path ORAM algorithm is used by the Signal encrypted messenger for private contact discovery. ORAM can also be used in blockchains to enable private order flow and mitigate Miner Extractable Value (MEV). " />
+                    <Card title="Applications of ORAM" img={card2} text="Our Path ORAM algorithm is used by the Signal encrypted messenger for private contact discovery. ORAM can also be used in blockchains to enable private order flow and mitigate Miner Extractable Value (MEV)." />
                     </div>
 <div className="col-md-3 mb-2">
                     <Card title="Open source" img={card3} text="We provide open source implementations of Oblivious RAM and oblivious algorithms. Check out our
