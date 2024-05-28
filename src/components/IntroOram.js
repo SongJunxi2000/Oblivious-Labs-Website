@@ -14,7 +14,8 @@ function IntroOram() {
 but also the accesses to data." />
                     </div>
                     <div className="col-md-3 mb-2">
-                    <Card title="Do I need an ORAM?" img={card2} text="You should consider using an ORAM whenever your application involves privately querying a database, whether the database is secret or public. Read more." />
+                    <Card title="Our Mission" img={card2} text="We provide open source implementations of Oblivious RAM and oblivious algorithms. Check out our
+open source releases on <a href="">Github </a>." />
                     </div>
 
                 </div>
