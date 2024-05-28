@@ -10,7 +10,7 @@ function IntroOram() {
             <div className="col-md-12">
                 <div className="row">
                     <div className="col-md-3 mb-2">
-                    <Card title="What is ORAM?" img={card1} text="Oblivious RAM (ORAM) provides a secret database that ``encrypts'' not only the data contents,
+                    <Card title="What is ORAM?" img={card1} text="Oblivious RAM (ORAM) provides a secret database that "encrypts" not only the data contents,
 but also the accesses to data." />
                     </div>
                     <div className="col-md-3 mb-2">
