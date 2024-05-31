@@ -1,6 +1,7 @@
 import Navbar from "./components/Navbar";
 import Header from "./components/Header";
 import Main from "./components/Main";
+import BalanceChecker from "./components/BalanceChecker";
 import Footer from "./components/Footer";
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
       <Navbar />
       <Header />
       <Main />
+      <BalanceChecker />
       <Footer />
     </>
   );
