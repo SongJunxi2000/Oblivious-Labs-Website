@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import CheckBalance from './client'
+import Tether from "./img/Tether.png";
 
 const BalanceChecker = () => {
     var [ethAddress, setEthAddress] = useState('');
@@ -41,28 +42,41 @@ const BalanceChecker = () => {
     };
 
     return (
-        <div className="card p-4" style={{ maxWidth: '550px', margin: 'auto' }}>
-            <h2 className="text-center">USDT Balance Checker Demo</h2>
-            <form onSubmit={handleSubmit}>
-                <div className="form-group">
-                    <label htmlFor="ethAddress"> Account </label>
-                    <input
-                        type="text"
-                        className="form-control"
-                        id="ethAddress"
-                        value={ethAddress}
-                        onChange={(e) => setEthAddress(e.target.value)}
-                        placeholder="Enter Ethereum Address"
-                        required
-                        size="40"
-                    />
+        <>
+            <div style={{ width: '100%', height: '10px' }} className="balancechecker"></div>
+            <div className="row">
+                <div className="col-md-6 text-center">
+                    <img alt="Tether" src={Tether} className="img-fluid" />
                 </div>
-                <button type="submit" className="btn">Check Balance</button>
-                <br />
-                The query is encrypted and handled by an SGX server running ORAM.
-            </form>
-            <div id="result" className="result text-center mt-3" dangerouslySetInnerHTML={{ __html: result }}></div>
-        </div>
+                <div className="col-md-6">
+                    <h2 className="main-title about-h2">USDT Balance Checker Demo</h2>
+
+                    <form onSubmit={handleSubmit}>
+                        <div className="form-group">
+                            <label htmlFor="ethAddress"> Account </label>
+                            <input
+                                type="text"
+                                className="form-control"
+                                id="ethAddress"
+                                value={ethAddress}
+                                onChange={(e) => setEthAddress(e.target.value)}
+                                placeholder="Enter Ethereum Address"
+                                required
+                                size="40"
+                            />
+                        </div>
+                        <button type="submit" className="btn" style={{ cursor: "pointer" }}>Check Balance</button>
+                        <br />
+                        <div className="p-3">
+                            The query is encrypted and handled by an SGX server running ORAM.
+                            <div id="result" className="result mt-3" dangerouslySetInnerHTML={{ __html: result }}></div>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+
+        </>
     );
 };
 
