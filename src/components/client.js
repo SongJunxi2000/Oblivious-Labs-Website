@@ -175,7 +175,7 @@ function getRandomBytes(size) {
 
 // example balance checker client
 const CheckBalance = async function (addr) {
-    const host = "https://20.163.181.199:443";
+    const host = "https://obliviouslabs.eastus.cloudapp.azure.com";
     try {
         // For the demo, we omit PKI and attestations
         const res = await fetch(`${host}/public_key`);
