@@ -11,7 +11,7 @@ function TeamMember() {
                 <div className="row">
                     <div className="col-md-3 mb-2">
                     <Card title="Elaine Shi" text="<div class='text-center'>
-    President and CEO <br><br>
+    President and Chief Scientist <br><br>
   </div>" />
                     </div>
                     <div className="col-md-3 mb-2">
