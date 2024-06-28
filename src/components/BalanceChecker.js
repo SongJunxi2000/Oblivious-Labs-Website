@@ -1,11 +1,30 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import CheckBalance from './client'
 import Tether from "./img/Tether.png";
 
 const BalanceChecker = () => {
+    const [enabled, setEnabled] = useState(false);
     var [ethAddress, setEthAddress] = useState('');
     const [result, setResult] = useState('');
+    const host = "https://obliviouslabs.eastus.cloudapp.azure.com";
 
+    // we fetch the public key from the backend to check if it is running
+    const testBackendRunning = async (e) => {
+        try {
+            const res = await fetch(`${host}/public_key`);
+            setEnabled(res.ok);
+        } catch (error) {
+            console.error(error);
+        }
+    };
+
+    useEffect(() => {
+        testBackendRunning();
+    }, []);
+
+    if (!enabled) {
+        return ('');
+    }
     const handleSubmit = async (e) => {
         e.preventDefault();
 
