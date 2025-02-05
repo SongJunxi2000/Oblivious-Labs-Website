@@ -15,13 +15,13 @@ function TeamMember() {
   </div>" />
                     </div>
                     <div className="col-md-3 mb-2">
-                    <Card title="Tianyao Gu" text="<div class='text-center'>
-    Co-Founder<br> Lead Research Engineer  <br><br>
-  </div>" />
-                    </div>
-                    <div className="col-md-3 mb-2">
                     <Card title="Afonso Tinoco" text="<div class='text-center'>
     Co-Founder<br> Lead Research Engineer  <br><br>
+  </div>" />
+                      </div>
+                    <div className="col-md-3 mb-2">
+                    <Card title="Junxi Song" text="<div class='text-center'>
+    Co-Founder<br> Research Engineer  <br><br>
   </div>" />
                     </div>
                     <div className="col-md-3 mb-2">

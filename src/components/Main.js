@@ -8,6 +8,7 @@ function Main() {
       <main>
         <IntroOram />
         <Team />
+        <Sponsor />
       </main>
     </>
   );
