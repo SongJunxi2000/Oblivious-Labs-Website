@@ -51,6 +51,9 @@ code {
 .row {
   display: flex;
   z-index: 1;
+  justify-content: center; /* Center the cards horizontally */
+  gap: 2rem; /* Adjust spacing between the cards */
+  margin-bottom: 2rem; /* Add space between the first and second rows */
 }
 
 .img-fluid {
@@ -86,6 +89,10 @@ code {
 
 .col-md-6 {
   width: 49.9%;
+}
+
+.col-md-6-center{
+  width: 33.3%;
 }
 
 .col-md-3 {
