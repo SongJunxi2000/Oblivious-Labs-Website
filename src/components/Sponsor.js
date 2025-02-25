@@ -1,5 +1,6 @@
 import flashbots from "./img/Flashbots-logo.svg";
 import NSF from "./img/NSFSBIR.png";
+import parc from "./img/0xPARC.png";
 
 function Sponsor() {
   return (
@@ -11,12 +12,17 @@ function Sponsor() {
       <img 
         src={flashbots} 
         alt="Flashbots logo" 
-        style={{ maxWidth: "200px", height: "auto" }} 
+        style={{ maxWidth: "250px", height: "auto" }} 
       />
       <img 
         src={NSF} 
         alt="NSF SBIR logo" 
-        style={{ maxWidth: "200px", height: "auto" }} 
+        style={{ maxWidth: "250px", height: "auto" }} 
+      />
+      <img 
+        src={parc} 
+        alt="0xPARC logo" 
+        style={{ maxWidth: "250px", height: "auto" }} 
       />
       </div>
     </div>

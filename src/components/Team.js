@@ -28,7 +28,7 @@ function TeamMember() {
                         </div>
                     <div className="col-md-4 mb-2">
                     <Card title="Tianyao Gu" text="<div class='text-center'>
-    Co-Founder<br> Lead Research Engineer  <br><br>
+    Co-Founder<br>   <br><br>
   </div>" />
                       </div>
                     <div className="col-md-4 mb-2">
