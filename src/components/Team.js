@@ -9,16 +9,12 @@ function TeamMember() {
             <div className="col-md-6 ps-1">
               <Card
                 title="Elaine Shi"
-                text="<div class='text-center'>
-    President<br> Chief Scientist <br><br>
-  </div>" />
+                text="President<br> Chief Scientist <br>" />
             </div>
             <div className="col-md-6 ps-1">
               <Card
                 title="Andrew Miller"
-                text="<div class='text-center'>
-    Advisor  <br><br>
-  </div>" />
+                text="<br> Advisor <br>" />
             </div>
           </div>
         </div>
@@ -29,23 +25,17 @@ function TeamMember() {
             <div className="col-md-3 mb-2">
               <Card
                 title="Afonso Tinoco"
-                text="<div class='text-center'>
-    Co-Founder<br> Lead Research Engineer  <br><br>
-  </div>" />
+                text="Co-Founder<br> Lead Research Engineer  <br>" />
             </div>
             <div className="col-md-3 mb-2">
               <Card
                 title="Tianyao Gu"
-                text="<div class='text-center'>
-    Co-Founder<br>   <br><br>
-  </div>" />
+                text="Co-Founder<br>   <br>" />
             </div>
             <div className="col-md-3 mb-2">
               <Card
                 title="Junxi Song"
-                text="<div class='text-center'>
-    Co-Founder<br> Research Engineer  <br><br>
-  </div>" />
+                text="Co-Founder<br> Research Engineer  <br>" />
             </div>
           </div>
         </div>

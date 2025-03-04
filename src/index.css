@@ -27,3 +27,11 @@ header h3 {
   gap: 2rem;
   margin-bottom: 0.5rem;
 }
+
+.t-center {
+  text-align: center;
+}
+
+.t-justify {
+  text-align: justify;
+}
