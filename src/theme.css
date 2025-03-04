@@ -379,16 +379,20 @@ footer ul li a {
   padding: 0.2rem 1rem;
 }
 
-.ps-1 {
-  padding-right: 0.5rem;
-  padding-left: 0.5rem;
+.ms-1 {
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
+  /* padding: auto; */
+}
+
+.pd-1 {
+  padding: 3rem;
 }
 
 .card-text {
   padding: 0rem 0rem 1rem 0rem;
   font-weight: 500;
   font-size: 18px;
-
 }
 
 .card {
@@ -670,6 +674,7 @@ ul li a {
 
   .col-md-6 {
     width: 100%;
+    margin: 0 0 0 0 !important;
   }
 
   .row {

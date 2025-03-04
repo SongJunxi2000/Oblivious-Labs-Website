@@ -28,7 +28,6 @@ function Footer() {
                   <li>
                     <a target="_blank" rel="noreferrer" href="https://x.com/obliviouslabs" > Twitter</a>
                   </li>
-                  
                 </ul>
               </div>
             </div>
