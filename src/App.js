@@ -15,11 +15,7 @@ function App() {
   }, []);
 
   if (isMobile) {
-    return (
-      <div style={{ textAlign: "center", marginTop: "20%" }}>
-        <h2>This website is not supported on mobile. Please use a laptop or desktop.</h2>
-      </div>
-    );
+
   }
 
   return (
