@@ -35,3 +35,11 @@ header h3 {
 .t-justify {
   text-align: justify;
 }
+
+
+.balance-checker .row {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-bottom: 0.5rem;
+}

@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import Navbar from "./components/Navbar";
 import Header from "./components/Header";
 import Main from "./components/Main";
-import BalanceChecker from "./components/BalanceChecker";
+import BalanceChecker from "./components/BalanceCheckerTDX";
 import Footer from "./components/Footer";
 
 function App() {
