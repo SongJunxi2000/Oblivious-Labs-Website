@@ -13,7 +13,7 @@ const BalanceChecker = () => {
         let ok = status["message"] === "All good!";
         if (ok) {
             // Disabled for now:
-            // setEnabled(true);
+            setEnabled(true);
         }
     };
 
